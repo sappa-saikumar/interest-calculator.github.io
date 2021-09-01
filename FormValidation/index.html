@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create Account Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="secondForm_CSS.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username: </label>
+                <input id="username" name="username" type="text" placeholder="testuser" maxlength="20"></input>
+                <i id="right" class="fa fa-check-circle"></i>
+                <i id="wrong" class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email: </label>
+                <input id="email" name="email" type="email" placeholder="test@email.com"></input>
+                <i id="right" class="fa fa-check-circle"></i>
+                <i id="wrong" class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password: </label>
+                <input id="password1" name="password" type="password" placeholder="Password" maxlength="20"></input>
+                <i id="right" class="fa fa-check-circle"></i>
+                <i id="wrong" class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="passwordcheck">Password Check: </label>
+                <input id="password2" name="passwordcheck" type="password" placeholder="Password Check"
+                    maxlength="20"></input>
+                <i id="right" class="fa fa-check-circle"></i>
+                <i id="wrong" class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button id="button">Submit</button>
+        </form>
+    </div>
+    <script src="secondForm.js"></script>
+</body>
+
+</html>
